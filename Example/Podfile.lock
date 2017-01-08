@@ -1,0 +1,16 @@
+PODS:
+  - RKMultiUnitRuler (0.1.0)
+
+DEPENDENCIES:
+  - RKMultiUnitRuler (from `../`)
+
+EXTERNAL SOURCES:
+  RKMultiUnitRuler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RKMultiUnitRuler: 66373cc700c071dee204401786c6e8724f0c9dab
+
+PODFILE CHECKSUM: 39bd870e20caae376490608e98bd00926f08598d
+
+COCOAPODS: 1.1.1
