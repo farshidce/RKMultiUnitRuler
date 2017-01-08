@@ -2,10 +2,11 @@ language: objective-c
 podfile: RKMultiUnitRulerDemo/Podfile
 xcode_sdk: iphonesimulator10.0
 osx_image: xcode8
+xcode_workspace: Example/RKMultiUnitRuler.xcworkspace
+xcode_scheme: RKMultiUnitRuler-Example
 
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
 script:
-- set -o pipefail && xcodebuild -workspace Example/RKMultiUnitRuler.xcworkspace -scheme RKMultiUnitRuler-Example | xcpretty
 - pod lib lint
