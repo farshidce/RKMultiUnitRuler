@@ -2,7 +2,8 @@
 [![Version](https://img.shields.io/cocoapods/v/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
 [![License](https://img.shields.io/cocoapods/l/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
 [![Platform](https://img.shields.io/cocoapods/p/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
-[![Swift Version][swift-image]][swift-url]
+![Swift version](https://img.shields.io/badge/swift-3.0-orange.svg)
+
 
 ## RKMultiUnitRuler - Customizable Ruler Control for iOS
 
