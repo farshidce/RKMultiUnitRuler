@@ -1,7 +1,10 @@
-# RKMultiUnitRuler [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+# RKMultiUnitRuler
+[![CI Status](https://travis-ci.org/farshidce/RKMultiUnitRuler.svg?style=flat)](https://travis-ci.org/farshidce/RKMultiUnitRuler)
+[![Version](https://img.shields.io/cocoapods/v/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
+[![License](https://img.shields.io/cocoapods/l/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
+[![Platform](https://img.shields.io/cocoapods/p/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
 
-
-## RKMultiUnitRuler - Customizable Control for iOS
+## RKMultiUnitRuler - Customizable Ruler Control for iOS
 
 A cocoa pod that simplies process of setting and reading values for different units. This control let the user
 specify multiple units ( e.g Kilograms and Pound) and specify markers for each unit and then let the user

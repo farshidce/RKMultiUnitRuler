@@ -1,4 +1,4 @@
-language: swift
+language: objective-c
 cache: cocoapods
 podfile: RKMultiUnitRulerDemo/Podfile
 osx_image: xcode8
