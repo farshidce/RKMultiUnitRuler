@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RKMultiUnitRuler_Example' do
+  pod 'RKMultiUnitRuler', :path => '../'
+
+  target 'RKMultiUnitRuler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
