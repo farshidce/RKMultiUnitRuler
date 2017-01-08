@@ -7,5 +7,5 @@ install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
 script:
-- set -o pipefail && xcodebuild -workspace Example/RKMultiUnitRuler.xcworkspace -scheme RKMultiUnitRuler -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild -workspace Example/RKMultiUnitRuler.xcworkspace -scheme RKMultiUnitRuler-Example | xcpretty
 - pod lib lint
