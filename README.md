@@ -190,6 +190,18 @@ If you have any other questions regarding the use of this library, please contac
 
 [Farshid Ghods](farshid.ghods@gmail.com)
 
+## Special Thanks
+
+[CRRulerControl](https://github.com/Cleveroad/CRRulerControl)
+
+[VitPilot Concept Design](https://www.behance.net/gallery/42058853/VitPilot-(Mobile-App))
+
+## Todos
+
+- create a version that works with iOS 8,9
+- add a circular slider/ruler
+- add a rating 1-5 ruler
+
 ## License
 
 The MIT License (MIT)
