@@ -8,7 +8,7 @@
 
 ## RKMultiUnitRuler - Customizable Ruler Control for iOS
 
-A cocoa pod that simplies process of setting and reading values for different units. This control let the user
+A cocoa pod that simplifies process of setting and reading values for different units. This control let the user
 specify multiple units ( e.g Kilograms and Pound) and specify markers for each unit and then let the user
 modify the value via scrolling or updating the textfield.
 
