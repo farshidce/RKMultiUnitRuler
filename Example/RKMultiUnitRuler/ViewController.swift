@@ -132,12 +132,12 @@ class ViewController: UIViewController, RKMultiUnitRulerDataSource, RKMultiUnitR
         print("value changed to \(measurement.doubleValue)")
     }
 
-    func colorSwitchValueChanged(sender: UISwitch) {
+    @objc func colorSwitchValueChanged(sender: UISwitch) {
         colorOverridesEnabled = sender.isOn
         ruler?.refresh()
     }
 
-    func directionSwitchValueChanged(sender: UISwitch) {
+    @objc func directionSwitchValueChanged(sender: UISwitch) {
         if sender.isOn {
             direction = .vertical
             controlHConstraint?.constant = 400
@@ -150,7 +150,7 @@ class ViewController: UIViewController, RKMultiUnitRulerDataSource, RKMultiUnitR
         self.view.layoutSubviews()
     }
 
-    func moreMarkersSwitchValueChanged(sender: UISwitch) {
+    @objc func moreMarkersSwitchValueChanged(sender: UISwitch) {
         moreMarkers = sender.isOn
         if moreMarkers {
             self.rangeLength = Measurement(value: Double(90), unit: UnitMass.kilograms)

@@ -127,7 +127,7 @@ class RKRangeTextView: UIControl, UITextFieldDelegate {
         let textFieldText = (textField.text ?? "") as NSString?
         let updatedString = textFieldText?.replacingCharacters(in: range, with: string)
         if let unit = self.unit {
-            print("updatedString : \(updatedString)")
+            print("updatedString : \(String(describing: updatedString))")
             if let updatedStringAsFloat = updatedString?.replacingOccurrences(
                     of: unit.symbol, with: "").floatValue {
                 currentValue = updatedStringAsFloat
