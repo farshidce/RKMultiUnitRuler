@@ -228,10 +228,10 @@ class RKRangeLayer: CALayer {
         let colorOverride = self.colorOverride(for: marker.value)
         let color = colorOverride ?? marker.type.color
         let textAttributes = [
-                NSFontAttributeName: marker.type.font,
-                NSForegroundColorAttributeName: marker.type.color
-        ] as [String: Any]
-        let textSize = NSString(string: marker.text).size(attributes: textAttributes)
+            NSAttributedStringKey.font: marker.type.font,
+            NSAttributedStringKey.foregroundColor: marker.type.color
+        ] as [NSAttributedStringKey: Any]
+        let textSize = NSString(string: marker.text).size(withAttributes: textAttributes)
         let xPos = pos - marker.type.size.width / 2
         var yPos: CGFloat = 0.0
 
@@ -269,10 +269,10 @@ class RKRangeLayer: CALayer {
         let colorOverride = self.colorOverride(for: marker.value)
         let color = colorOverride ?? marker.type.color
         let textAttributes = [
-                NSFontAttributeName: marker.type.font,
-                NSForegroundColorAttributeName: marker.type.color
-        ] as [String: Any]
-        let textSize = NSString(string: marker.text).size(attributes: textAttributes)
+            NSAttributedStringKey.font.rawValue: marker.type.font,
+            NSAttributedStringKey.foregroundColor: marker.type.color
+            ] as! [NSAttributedStringKey: Any]
+        let textSize = NSString(string: marker.text).size(withAttributes: textAttributes)
 
         let yPos = self.frame.height - pos - marker.type.size.width / 2
         var xPos: CGFloat = 0.0

@@ -1,5 +1,5 @@
 PODS:
-  - RKMultiUnitRuler (0.1.0)
+  - RKMultiUnitRuler (0.2.0)
 
 DEPENDENCIES:
   - RKMultiUnitRuler (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RKMultiUnitRuler: 66373cc700c071dee204401786c6e8724f0c9dab
+  RKMultiUnitRuler: e068f73b83c126e3bdda22783dadd869bb7bd1ea
 
 PODFILE CHECKSUM: 39bd870e20caae376490608e98bd00926f08598d
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.3

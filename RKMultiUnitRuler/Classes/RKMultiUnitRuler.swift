@@ -192,8 +192,8 @@ public class RKMultiUnitRuler: UIView {
                     let style = dataSource.styleForUnit(unit)
                     self.segmentControl.tintColor = UIColor.yellow
                     self.segmentControl.setTitleTextAttributes(
-                            [NSForegroundColorAttributeName: style.textFieldTextColor,
-                             NSFontAttributeName: kDefaultSegmentControlTitleFont], for: .normal)
+                        [NSAttributedStringKey.foregroundColor: style.textFieldTextColor,
+                         NSAttributedStringKey.font: kDefaultSegmentControlTitleFont], for: .normal)
                 }
             }
             self.addSubview(self.segmentControl)
@@ -204,7 +204,7 @@ public class RKMultiUnitRuler: UIView {
         return self.segmentControl
     }
 
-    func segmentSelectionChanged(_ sender: UISegmentedControl) {
+    @objc func segmentSelectionChanged(_ sender: UISegmentedControl) {
         if let segmentedViews = self.segmentedViews {
             for i in 0 ... segmentedViews.count - 1 {
                 if i == segmentControl.selectedSegmentIndex {
@@ -226,13 +226,13 @@ public class RKMultiUnitRuler: UIView {
                 scrollViews[segmentControl.selectedSegmentIndex].scrollToCurrentValueOffset()
                 let style = dataSource.styleForUnit(unit)
                 self.segmentControl.setTitleTextAttributes(
-                        [NSForegroundColorAttributeName: style.textFieldTextColor,
-                         NSFontAttributeName: kDefaultSegmentControlTitleFont], for: .normal)
+                    [NSAttributedStringKey.foregroundColor: style.textFieldTextColor,
+                     NSAttributedStringKey.font: kDefaultSegmentControlTitleFont], for: .normal)
             }
         }
     }
 
-    func scrollViewCurrentValueChanged(_ sender: RKRangeScrollView) {
+    @objc func scrollViewCurrentValueChanged(_ sender: RKRangeScrollView) {
         if let dataSource = self.dataSource {
             let activeSegmentUnit = dataSource.unitForSegmentAtIndex(
                     index: segmentControl.selectedSegmentIndex)
@@ -246,7 +246,7 @@ public class RKMultiUnitRuler: UIView {
         }
     }
 
-    func textViewValueChanged(_ sender: RKRangeTextView) {
+    @objc func textViewValueChanged(_ sender: RKRangeTextView) {
         if let dataSource = self.dataSource {
             let activeSegmentUnit = dataSource.unitForSegmentAtIndex(
                     index: segmentControl.selectedSegmentIndex)

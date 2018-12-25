@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
 [![License](https://img.shields.io/cocoapods/l/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
 [![Platform](https://img.shields.io/cocoapods/p/RKMultiUnitRuler.svg?style=flat)](http://cocoapods.org/pods/RKMultiUnitRuler)
-![Swift version](https://img.shields.io/badge/swift-3.0-orange.svg)
+![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg)
 
 
 ## RKMultiUnitRuler - Customizable Ruler Control for iOS
@@ -41,7 +41,7 @@ iOS 10+
 
 xCode 8.0+
 
-Swift 3.0
+Swift 4.0
 
 ####You can use storyboard to create a control element.
 

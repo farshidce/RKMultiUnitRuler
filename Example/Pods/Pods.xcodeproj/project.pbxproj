@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02EA1B48639623B19DE66EB992EE9E35 /* RKRangeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3971C1269C71F2D6CFE9E3C9B62FA75F /* RKRangeLayer.swift */; };
-		0958CD51E793DAD9ED891AC36C900269 /* Pods-RKMultiUnitRuler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA135C956A14CED91E7303097D1FF6 /* Pods-RKMultiUnitRuler_Example-dummy.m */; };
-		1FF05AB325C74B14CB3DC38D21BEEE4C /* Pods-RKMultiUnitRuler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D03E5C23DED3E7BD4D75D9180EB4F772 /* Pods-RKMultiUnitRuler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30A6070A15A84F97BD25C8E22E8292C1 /* RKRangeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A511E29A11B30375B61CEE223BF141 /* RKRangeTextView.swift */; };
-		314ECA8BAFE7E76F5B383DE1B48C74E9 /* Pods-RKMultiUnitRuler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1898ED123349459D1799942A3E6E51CA /* Pods-RKMultiUnitRuler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		356C3E368415FF52E6A6537213C54B37 /* RKRangeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B57605685F85AC9FD4C3A5A8C52D48 /* RKRangeScrollView.swift */; };
-		3B1AE79AAE0C153754A8E9F7099FC452 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63F922E0072818A34497EB1C4645A3 /* Constant.swift */; };
-		4733D6F7596679A53E3D4859BAF62B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		47BC62D683DAAE0194077A5B25BA2ED8 /* RKMultiUnitRuler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E65C7AE69C958C0E1FD8AA175C4F4 /* RKMultiUnitRuler-dummy.m */; };
-		6FD659A6FCE25F0B286FE17C71978658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7E491E3A76587A7EEF0FA94F4F0A814B /* RKMultiUnitRuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A022E3F52B935150C1D289353726090 /* RKMultiUnitRuler.swift */; };
-		97894EFFAE9C30BC56973A74801BEE30 /* RKRangePointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751355E42CC4920E232CADE700EF703D /* RKRangePointerView.swift */; };
-		B8D910D9A1BA239B22A7D0F6709B1D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F8F2AF98D327A5132B6D90862F81B78B /* Pods-RKMultiUnitRuler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B4B539CF1BC975B360411367E124C9 /* Pods-RKMultiUnitRuler_Tests-dummy.m */; };
-		FAEC82E2B75C57E64BBDBC66640903C2 /* RKMultiUnitRuler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9426D7378BD7F2FC98F9D9FFBF65FE /* RKMultiUnitRuler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0958CD51E793DAD9ED891AC36C900269 /* Pods-RKMultiUnitRuler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E15403606F1802D7BA0B8F3041B3D2 /* Pods-RKMultiUnitRuler_Example-dummy.m */; };
+		09A5079DF6CCB8AAE9972FD858249E86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		1FF05AB325C74B14CB3DC38D21BEEE4C /* Pods-RKMultiUnitRuler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F3BE444D63C0DDF1E74D62F976B86A /* Pods-RKMultiUnitRuler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29302B1D0E0E234BF15441F67A3DD9D8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E0CDB8391DE0F75A95ABC6F913B30 /* Constant.swift */; };
+		3EF89EAAD6A6534F3C8D916BF20A98AC /* RKRangeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A25F08B618FE45F2C185DA8B15BA0A /* RKRangeLayer.swift */; };
+		5853E90B8E099484FED2F5CB3050A452 /* RKMultiUnitRuler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6D1A1C07416C6C20FE0B0BC623B330 /* RKMultiUnitRuler-dummy.m */; };
+		A7D3147BF3CBC3BC3AF6F4CA51B94051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		AD15C9350DDA96FB4A571636F19FA470 /* RKRangePointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7BD22E20B8168FFAE413A1EF31EA2 /* RKRangePointerView.swift */; };
+		AE9D829C58FD1945E3A23B319FDF77F5 /* RKMultiUnitRuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBAC519CDCE87C50CB0E9502FA23F5A /* RKMultiUnitRuler.swift */; };
+		BE2186BFEB82BB07CC37492D2741825A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C7C54B913ED4E1E0239A0081F3466A77 /* RKRangeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA7F1952D13B14A79C3448711AD054 /* RKRangeScrollView.swift */; };
+		D081DCBFB53378299DA96AAFA089AED4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		DB3A1E3A164DD674E8589AA8B1A403E6 /* RKRangeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B95F9AF24861135E4FF3E41D7657AC /* RKRangeTextView.swift */; };
+		DE3A6614BF113DB82CF34BB4821E3521 /* Pods-RKMultiUnitRuler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F875934CA1044E0BFD291CFF2B0D7 /* Pods-RKMultiUnitRuler_Tests-dummy.m */; };
+		EEC38CFADCE82C96E1B76B45BABE4047 /* Pods-RKMultiUnitRuler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27788F3492E41A7D99ABF173CDCC3FBA /* Pods-RKMultiUnitRuler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEC82E2B75C57E64BBDBC66640903C2 /* RKMultiUnitRuler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A94EB3D3644C92C457D1D651FB00F3C1 /* RKMultiUnitRuler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,62 +33,74 @@
 			remoteGlobalIDString = CB2EC8BD174C06D6404CC8828B0E41C8;
 			remoteInfo = RKMultiUnitRuler;
 		};
+		3DB20FF5867298967D6D37FB0AC5C6AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4CF61B20B4828650DB699A984CC4C1;
+			remoteInfo = "Pods-RKMultiUnitRuler_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07EA135C956A14CED91E7303097D1FF6 /* Pods-RKMultiUnitRuler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKMultiUnitRuler_Example-dummy.m"; sourceTree = "<group>"; };
-		112AA4EABE328936D8A323D7C33C6E8D /* Pods-RKMultiUnitRuler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKMultiUnitRuler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1898ED123349459D1799942A3E6E51CA /* Pods-RKMultiUnitRuler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKMultiUnitRuler_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1A022E3F52B935150C1D289353726090 /* RKMultiUnitRuler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RKMultiUnitRuler.swift; sourceTree = "<group>"; };
-		1D9426D7378BD7F2FC98F9D9FFBF65FE /* RKMultiUnitRuler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKMultiUnitRuler-umbrella.h"; sourceTree = "<group>"; };
-		2E7E54D2DAFDC6CE37ED0D9419E95A18 /* Pods-RKMultiUnitRuler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKMultiUnitRuler_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3971C1269C71F2D6CFE9E3C9B62FA75F /* RKRangeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RKRangeLayer.swift; sourceTree = "<group>"; };
-		416E65C7AE69C958C0E1FD8AA175C4F4 /* RKMultiUnitRuler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKMultiUnitRuler-dummy.m"; sourceTree = "<group>"; };
-		461ABC0E6CD38CB870D6FC2F60445F9F /* Pods-RKMultiUnitRuler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKMultiUnitRuler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11E15403606F1802D7BA0B8F3041B3D2 /* Pods-RKMultiUnitRuler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKMultiUnitRuler_Example-dummy.m"; sourceTree = "<group>"; };
+		1B1996D1899DD575D3A0A86F65F27377 /* Pods-RKMultiUnitRuler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKMultiUnitRuler_Tests-resources.sh"; sourceTree = "<group>"; };
+		1B6D1A1C07416C6C20FE0B0BC623B330 /* RKMultiUnitRuler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKMultiUnitRuler-dummy.m"; sourceTree = "<group>"; };
+		24F3BE444D63C0DDF1E74D62F976B86A /* Pods-RKMultiUnitRuler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKMultiUnitRuler_Example-umbrella.h"; sourceTree = "<group>"; };
+		261F875934CA1044E0BFD291CFF2B0D7 /* Pods-RKMultiUnitRuler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKMultiUnitRuler_Tests-dummy.m"; sourceTree = "<group>"; };
+		26B95F9AF24861135E4FF3E41D7657AC /* RKRangeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RKRangeTextView.swift; path = RKMultiUnitRuler/Classes/RKRangeTextView.swift; sourceTree = "<group>"; };
+		27788F3492E41A7D99ABF173CDCC3FBA /* Pods-RKMultiUnitRuler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKMultiUnitRuler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		328B55DA9E13179A3F77894D8DDFA3C8 /* Pods-RKMultiUnitRuler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKMultiUnitRuler_Example.modulemap"; sourceTree = "<group>"; };
+		349024A11A3780DCE5BC8EA2AC751252 /* Pods-RKMultiUnitRuler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKMultiUnitRuler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B948C46BF6141F95383F3429B323FF1 /* RKMultiUnitRuler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RKMultiUnitRuler.modulemap; sourceTree = "<group>"; };
+		3CBADED9D67E4DF02565D5C496A76BA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9135337876AF51154318FEC5B27074 /* Pods-RKMultiUnitRuler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKMultiUnitRuler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		556159E53AD1FB3F0E0E5DE5A309B326 /* Pods_RKMultiUnitRuler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKMultiUnitRuler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64871C4FA57FF1EBF712F754683BE8D1 /* Pods-RKMultiUnitRuler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKMultiUnitRuler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6530B6B48AC8F8621B2FCF2A0B649E85 /* Pods-RKMultiUnitRuler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKMultiUnitRuler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		66E5538C452281A72A30835354B09947 /* Pods-RKMultiUnitRuler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKMultiUnitRuler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1E0CDB8391DE0F75A95ABC6F913B30 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = RKMultiUnitRuler/Classes/Constant.swift; sourceTree = "<group>"; };
+		5C6BBC14C2500E9CDBC68E7305F91D87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		615CA08F648BF45D4B50005A5FD26262 /* Pods-RKMultiUnitRuler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKMultiUnitRuler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6460873C1751093B897C076CA01E3BD1 /* Pods-RKMultiUnitRuler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKMultiUnitRuler_Example-resources.sh"; sourceTree = "<group>"; };
+		64A25F08B618FE45F2C185DA8B15BA0A /* RKRangeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RKRangeLayer.swift; path = RKMultiUnitRuler/Classes/RKRangeLayer.swift; sourceTree = "<group>"; };
+		69CE79FA83EC57AC0A97AA6DCB94E09A /* Pods-RKMultiUnitRuler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKMultiUnitRuler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0883EF5B30D6E7510527BB8BBE8E9C /* Pods-RKMultiUnitRuler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKMultiUnitRuler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6A1B4AAEA0B7661FD0EF5F5908F5DCBB /* Pods-RKMultiUnitRuler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKMultiUnitRuler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A9980DF76B5FFAC5398AC4CB4A27B46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707AD0136FCA4AD4380AD2AE0BD94A3F /* RKMultiUnitRuler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKMultiUnitRuler.xcconfig; sourceTree = "<group>"; };
+		712D3643E9809A8B76694956E832A012 /* Pods-RKMultiUnitRuler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKMultiUnitRuler_Example.release.xcconfig"; sourceTree = "<group>"; };
 		74A15182C16082D19655CD3FC60775AE /* RKMultiUnitRuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKMultiUnitRuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		751355E42CC4920E232CADE700EF703D /* RKRangePointerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RKRangePointerView.swift; sourceTree = "<group>"; };
-		7F131900498C4DE531CA1753A5402986 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82D1449396AD248B727BA5BD371DFBC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85B57605685F85AC9FD4C3A5A8C52D48 /* RKRangeScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RKRangeScrollView.swift; sourceTree = "<group>"; };
-		93977D67770D7E00CAD1D049C020035F /* Pods-RKMultiUnitRuler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RKMultiUnitRuler_Example.modulemap"; sourceTree = "<group>"; };
+		7AF7BD22E20B8168FFAE413A1EF31EA2 /* RKRangePointerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RKRangePointerView.swift; path = RKMultiUnitRuler/Classes/RKRangePointerView.swift; sourceTree = "<group>"; };
+		8131C5CFB5514E9AB0B25F474DDDFF8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		81B45E3FD815EB5E930AFD28B47A9D4D /* RKMultiUnitRuler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKMultiUnitRuler-prefix.pch"; sourceTree = "<group>"; };
+		848B4AD9C0A37F358A2C5CC106CF8844 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94B4B539CF1BC975B360411367E124C9 /* Pods-RKMultiUnitRuler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKMultiUnitRuler_Tests-dummy.m"; sourceTree = "<group>"; };
-		A4E3E693F4C663E2BB867575C59D418D /* Pods-RKMultiUnitRuler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKMultiUnitRuler_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A91F26CF5D8C6871458126B49DA8FF89 /* Pods-RKMultiUnitRuler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RKMultiUnitRuler_Tests.modulemap"; sourceTree = "<group>"; };
-		AC7B9052ACAFED6F1CD2A4326A0423D4 /* Pods-RKMultiUnitRuler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKMultiUnitRuler_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D03E5C23DED3E7BD4D75D9180EB4F772 /* Pods-RKMultiUnitRuler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKMultiUnitRuler_Example-umbrella.h"; sourceTree = "<group>"; };
+		9CBAC519CDCE87C50CB0E9502FA23F5A /* RKMultiUnitRuler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RKMultiUnitRuler.swift; path = RKMultiUnitRuler/Classes/RKMultiUnitRuler.swift; sourceTree = "<group>"; };
+		A4B54E18C967CD5572A206A2FD94111C /* Pods-RKMultiUnitRuler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKMultiUnitRuler_Tests.modulemap"; sourceTree = "<group>"; };
+		A94EB3D3644C92C457D1D651FB00F3C1 /* RKMultiUnitRuler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKMultiUnitRuler-umbrella.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BBB8CFB544740A8E1AD0A4D397098EAE /* RKMultiUnitRuler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RKMultiUnitRuler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCE67F2869099925CE7F5E17A445EAC9 /* Pods-RKMultiUnitRuler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKMultiUnitRuler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D08D85DEE34E0B3845F5E10CEC2A1C88 /* Pods_RKMultiUnitRuler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKMultiUnitRuler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B6A0D8A4CA0121495A4A379F292FA3 /* RKMultiUnitRuler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RKMultiUnitRuler.modulemap; sourceTree = "<group>"; };
-		DA221FDA7CC1298A598F13CD7B4ACEA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAD1B278371D27894404E0CEF92B03D2 /* Pods-RKMultiUnitRuler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKMultiUnitRuler_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DC63F922E0072818A34497EB1C4645A3 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		F7A511E29A11B30375B61CEE223BF141 /* RKRangeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RKRangeTextView.swift; sourceTree = "<group>"; };
-		F8E96CE53BFBF80ED5369E2185BC10D8 /* RKMultiUnitRuler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKMultiUnitRuler.xcconfig; sourceTree = "<group>"; };
-		FB585CB3D2271FB2E5235695FE4F5696 /* Pods-RKMultiUnitRuler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKMultiUnitRuler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FE20FD5FA509E231E6F39515687EF83B /* RKMultiUnitRuler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKMultiUnitRuler-prefix.pch"; sourceTree = "<group>"; };
-		FE7C418B3D087EBD5D993A2A88528994 /* Pods-RKMultiUnitRuler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKMultiUnitRuler_Example-resources.sh"; sourceTree = "<group>"; };
-		FEE04D5617006DD2A280EC64EB141C02 /* Pods-RKMultiUnitRuler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKMultiUnitRuler_Tests-resources.sh"; sourceTree = "<group>"; };
+		D3CA7F1952D13B14A79C3448711AD054 /* RKRangeScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RKRangeScrollView.swift; path = RKMultiUnitRuler/Classes/RKRangeScrollView.swift; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED897D66447F129789599DED77AEDAF0 /* Pods-RKMultiUnitRuler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKMultiUnitRuler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FAD0FFEB979CB184083084BC81127B5E /* Pods-RKMultiUnitRuler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKMultiUnitRuler_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		320EAD4ECCFE350767E2A849F0DB7CAB /* Frameworks */ = {
+		163BF7F5F7C1FACE5F840ADDEE2E5A46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4733D6F7596679A53E3D4859BAF62B66 /* Foundation.framework in Frameworks */,
+				BE2186BFEB82BB07CC37492D2741825A /* Foundation.framework in Frameworks */,
+				D081DCBFB53378299DA96AAFA089AED4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D791DA9726355F9B6C271B5796D4571 /* Frameworks */ = {
+		6FEA63DBD82F8A672A9C2FA0CDC7991C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D910D9A1BA239B22A7D0F6709B1D06 /* Foundation.framework in Frameworks */,
+				A7D3147BF3CBC3BC3AF6F4CA51B94051 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,121 +108,130 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FD659A6FCE25F0B286FE17C71978658 /* Foundation.framework in Frameworks */,
+				09A5079DF6CCB8AAE9972FD858249E86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E93C598418264902493131C45844442 /* RKMultiUnitRuler */ = {
+		0C87E7699FC36228B46990C6E3B45CB5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7CA68A321A473A12ADCB6F1861A9AB6E /* RKMultiUnitRuler */,
-				447A9E48C9D7FD4D955688789A855C40 /* Support Files */,
+				5C6BBC14C2500E9CDBC68E7305F91D87 /* LICENSE */,
+				8131C5CFB5514E9AB0B25F474DDDFF8B /* README.md */,
+				BBB8CFB544740A8E1AD0A4D397098EAE /* RKMultiUnitRuler.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1A8B9ADB8182164EE9530185559C7174 /* RKMultiUnitRuler */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E0CDB8391DE0F75A95ABC6F913B30 /* Constant.swift */,
+				9CBAC519CDCE87C50CB0E9502FA23F5A /* RKMultiUnitRuler.swift */,
+				64A25F08B618FE45F2C185DA8B15BA0A /* RKRangeLayer.swift */,
+				7AF7BD22E20B8168FFAE413A1EF31EA2 /* RKRangePointerView.swift */,
+				D3CA7F1952D13B14A79C3448711AD054 /* RKRangeScrollView.swift */,
+				26B95F9AF24861135E4FF3E41D7657AC /* RKRangeTextView.swift */,
+				0C87E7699FC36228B46990C6E3B45CB5 /* Pod */,
+				AB137A439EDEC50FC41805CED40F0AF0 /* Support Files */,
 			);
 			name = RKMultiUnitRuler;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3624380883B7A5AE868B37431EF1DCB7 /* Pods-RKMultiUnitRuler_Tests */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82D1449396AD248B727BA5BD371DFBC7 /* Info.plist */,
-				A91F26CF5D8C6871458126B49DA8FF89 /* Pods-RKMultiUnitRuler_Tests.modulemap */,
-				461ABC0E6CD38CB870D6FC2F60445F9F /* Pods-RKMultiUnitRuler_Tests-acknowledgements.markdown */,
-				6530B6B48AC8F8621B2FCF2A0B649E85 /* Pods-RKMultiUnitRuler_Tests-acknowledgements.plist */,
-				94B4B539CF1BC975B360411367E124C9 /* Pods-RKMultiUnitRuler_Tests-dummy.m */,
-				A4E3E693F4C663E2BB867575C59D418D /* Pods-RKMultiUnitRuler_Tests-frameworks.sh */,
-				FEE04D5617006DD2A280EC64EB141C02 /* Pods-RKMultiUnitRuler_Tests-resources.sh */,
-				1898ED123349459D1799942A3E6E51CA /* Pods-RKMultiUnitRuler_Tests-umbrella.h */,
-				112AA4EABE328936D8A323D7C33C6E8D /* Pods-RKMultiUnitRuler_Tests.debug.xcconfig */,
-				2E7E54D2DAFDC6CE37ED0D9419E95A18 /* Pods-RKMultiUnitRuler_Tests.release.xcconfig */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5218F9B52482BB34605E450B91E138B0 /* Pods-RKMultiUnitRuler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A9980DF76B5FFAC5398AC4CB4A27B46 /* Info.plist */,
+				A4B54E18C967CD5572A206A2FD94111C /* Pods-RKMultiUnitRuler_Tests.modulemap */,
+				615CA08F648BF45D4B50005A5FD26262 /* Pods-RKMultiUnitRuler_Tests-acknowledgements.markdown */,
+				6A1B4AAEA0B7661FD0EF5F5908F5DCBB /* Pods-RKMultiUnitRuler_Tests-acknowledgements.plist */,
+				261F875934CA1044E0BFD291CFF2B0D7 /* Pods-RKMultiUnitRuler_Tests-dummy.m */,
+				FAD0FFEB979CB184083084BC81127B5E /* Pods-RKMultiUnitRuler_Tests-frameworks.sh */,
+				1B1996D1899DD575D3A0A86F65F27377 /* Pods-RKMultiUnitRuler_Tests-resources.sh */,
+				27788F3492E41A7D99ABF173CDCC3FBA /* Pods-RKMultiUnitRuler_Tests-umbrella.h */,
+				BCE67F2869099925CE7F5E17A445EAC9 /* Pods-RKMultiUnitRuler_Tests.debug.xcconfig */,
+				ED897D66447F129789599DED77AEDAF0 /* Pods-RKMultiUnitRuler_Tests.release.xcconfig */,
 			);
 			name = "Pods-RKMultiUnitRuler_Tests";
 			path = "Target Support Files/Pods-RKMultiUnitRuler_Tests";
 			sourceTree = "<group>";
 		};
-		447A9E48C9D7FD4D955688789A855C40 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F131900498C4DE531CA1753A5402986 /* Info.plist */,
-				D2B6A0D8A4CA0121495A4A379F292FA3 /* RKMultiUnitRuler.modulemap */,
-				F8E96CE53BFBF80ED5369E2185BC10D8 /* RKMultiUnitRuler.xcconfig */,
-				416E65C7AE69C958C0E1FD8AA175C4F4 /* RKMultiUnitRuler-dummy.m */,
-				FE20FD5FA509E231E6F39515687EF83B /* RKMultiUnitRuler-prefix.pch */,
-				1D9426D7378BD7F2FC98F9D9FFBF65FE /* RKMultiUnitRuler-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RKMultiUnitRuler";
-			sourceTree = "<group>";
-		};
 		5311E6312077211CE619B047BC0AB803 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5491BFB1892D2BC25B8B874F7308E7CB /* Pods-RKMultiUnitRuler_Example */,
-				3624380883B7A5AE868B37431EF1DCB7 /* Pods-RKMultiUnitRuler_Tests */,
+				933CFC658320B62B492ACB278630C806 /* Pods-RKMultiUnitRuler_Example */,
+				5218F9B52482BB34605E450B91E138B0 /* Pods-RKMultiUnitRuler_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5491BFB1892D2BC25B8B874F7308E7CB /* Pods-RKMultiUnitRuler_Example */ = {
-			isa = PBXGroup;
-			children = (
-				DA221FDA7CC1298A598F13CD7B4ACEA1 /* Info.plist */,
-				93977D67770D7E00CAD1D049C020035F /* Pods-RKMultiUnitRuler_Example.modulemap */,
-				FB585CB3D2271FB2E5235695FE4F5696 /* Pods-RKMultiUnitRuler_Example-acknowledgements.markdown */,
-				64871C4FA57FF1EBF712F754683BE8D1 /* Pods-RKMultiUnitRuler_Example-acknowledgements.plist */,
-				07EA135C956A14CED91E7303097D1FF6 /* Pods-RKMultiUnitRuler_Example-dummy.m */,
-				AC7B9052ACAFED6F1CD2A4326A0423D4 /* Pods-RKMultiUnitRuler_Example-frameworks.sh */,
-				FE7C418B3D087EBD5D993A2A88528994 /* Pods-RKMultiUnitRuler_Example-resources.sh */,
-				D03E5C23DED3E7BD4D75D9180EB4F772 /* Pods-RKMultiUnitRuler_Example-umbrella.h */,
-				66E5538C452281A72A30835354B09947 /* Pods-RKMultiUnitRuler_Example.debug.xcconfig */,
-				DAD1B278371D27894404E0CEF92B03D2 /* Pods-RKMultiUnitRuler_Example.release.xcconfig */,
-			);
-			name = "Pods-RKMultiUnitRuler_Example";
-			path = "Target Support Files/Pods-RKMultiUnitRuler_Example";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7CA68A321A473A12ADCB6F1861A9AB6E /* RKMultiUnitRuler */ = {
-			isa = PBXGroup;
-			children = (
-				FAFA778F1E3897C47FEC7E22A4231C23 /* Classes */,
-			);
-			path = RKMultiUnitRuler;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D7751C03F956BAC721518717E6BEE0FC /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CEAB46DE040C983BAB47CCF24F1366CF /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				E784826780EFC0D5729FCF36BCCCB4E6 /* Products */,
 				5311E6312077211CE619B047BC0AB803 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		933CFC658320B62B492ACB278630C806 /* Pods-RKMultiUnitRuler_Example */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				848B4AD9C0A37F358A2C5CC106CF8844 /* Info.plist */,
+				328B55DA9E13179A3F77894D8DDFA3C8 /* Pods-RKMultiUnitRuler_Example.modulemap */,
+				4A9135337876AF51154318FEC5B27074 /* Pods-RKMultiUnitRuler_Example-acknowledgements.markdown */,
+				349024A11A3780DCE5BC8EA2AC751252 /* Pods-RKMultiUnitRuler_Example-acknowledgements.plist */,
+				11E15403606F1802D7BA0B8F3041B3D2 /* Pods-RKMultiUnitRuler_Example-dummy.m */,
+				6A0883EF5B30D6E7510527BB8BBE8E9C /* Pods-RKMultiUnitRuler_Example-frameworks.sh */,
+				6460873C1751093B897C076CA01E3BD1 /* Pods-RKMultiUnitRuler_Example-resources.sh */,
+				24F3BE444D63C0DDF1E74D62F976B86A /* Pods-RKMultiUnitRuler_Example-umbrella.h */,
+				69CE79FA83EC57AC0A97AA6DCB94E09A /* Pods-RKMultiUnitRuler_Example.debug.xcconfig */,
+				712D3643E9809A8B76694956E832A012 /* Pods-RKMultiUnitRuler_Example.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-RKMultiUnitRuler_Example";
+			path = "Target Support Files/Pods-RKMultiUnitRuler_Example";
 			sourceTree = "<group>";
 		};
-		D7751C03F956BAC721518717E6BEE0FC /* Development Pods */ = {
+		AB137A439EDEC50FC41805CED40F0AF0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E93C598418264902493131C45844442 /* RKMultiUnitRuler */,
+				3CBADED9D67E4DF02565D5C496A76BA6 /* Info.plist */,
+				3B948C46BF6141F95383F3429B323FF1 /* RKMultiUnitRuler.modulemap */,
+				707AD0136FCA4AD4380AD2AE0BD94A3F /* RKMultiUnitRuler.xcconfig */,
+				1B6D1A1C07416C6C20FE0B0BC623B330 /* RKMultiUnitRuler-dummy.m */,
+				81B45E3FD815EB5E930AFD28B47A9D4D /* RKMultiUnitRuler-prefix.pch */,
+				A94EB3D3644C92C457D1D651FB00F3C1 /* RKMultiUnitRuler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RKMultiUnitRuler";
+			sourceTree = "<group>";
+		};
+		CEAB46DE040C983BAB47CCF24F1366CF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B9ADB8182164EE9530185559C7174 /* RKMultiUnitRuler */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -224,19 +246,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAFA778F1E3897C47FEC7E22A4231C23 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				DC63F922E0072818A34497EB1C4645A3 /* Constant.swift */,
-				1A022E3F52B935150C1D289353726090 /* RKMultiUnitRuler.swift */,
-				3971C1269C71F2D6CFE9E3C9B62FA75F /* RKRangeLayer.swift */,
-				751355E42CC4920E232CADE700EF703D /* RKRangePointerView.swift */,
-				85B57605685F85AC9FD4C3A5A8C52D48 /* RKRangeScrollView.swift */,
-				F7A511E29A11B30375B61CEE223BF141 /* RKRangeTextView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -248,11 +257,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86F877970E1C324EA6D2B19B1E9E5B8D /* Headers */ = {
+		F32ED72B65547509645B77867889EDA4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				314ECA8BAFE7E76F5B383DE1B48C74E9 /* Pods-RKMultiUnitRuler_Tests-umbrella.h in Headers */,
+				EEC38CFADCE82C96E1B76B45BABE4047 /* Pods-RKMultiUnitRuler_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +276,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0D4362EA6C366F632D3E979EFAB7E9B8 /* Pods-RKMultiUnitRuler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCA1A6EF6F01A583C508F973F5AB767 /* Build configuration list for PBXNativeTarget "Pods-RKMultiUnitRuler_Tests" */;
+			buildPhases = (
+				62B7C79B56CF58949E0B13F0777829FA /* Sources */,
+				6FEA63DBD82F8A672A9C2FA0CDC7991C /* Frameworks */,
+				F32ED72B65547509645B77867889EDA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFAE1FE407F4AD7FF4DB51A23948B97 /* PBXTargetDependency */,
+			);
+			name = "Pods-RKMultiUnitRuler_Tests";
+			productName = "Pods-RKMultiUnitRuler_Tests";
+			productReference = D08D85DEE34E0B3845F5E10CEC2A1C88 /* Pods_RKMultiUnitRuler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4A4CF61B20B4828650DB699A984CC4C1 /* Pods-RKMultiUnitRuler_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB5743F9D7DB8A55925F4333DC32E2A0 /* Build configuration list for PBXNativeTarget "Pods-RKMultiUnitRuler_Example" */;
@@ -289,8 +316,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2327ACA4C5139E9D832D4C79113C20E0 /* Build configuration list for PBXNativeTarget "RKMultiUnitRuler" */;
 			buildPhases = (
-				E3E3FF2826B7064DD39E746BCD4AE335 /* Sources */,
-				320EAD4ECCFE350767E2A849F0DB7CAB /* Frameworks */,
+				5C9E8BDD29990151918046A76A5D5F26 /* Sources */,
+				163BF7F5F7C1FACE5F840ADDEE2E5A46 /* Frameworks */,
 				0ED40602A5B65533809C73BE1F14F80A /* Headers */,
 			);
 			buildRules = (
@@ -302,36 +329,14 @@
 			productReference = 74A15182C16082D19655CD3FC60775AE /* RKMultiUnitRuler.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E473A9E46E6704B3006A4CE514238BAE /* Pods-RKMultiUnitRuler_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E059F5EC43C33AC0E3CD82C28EA69801 /* Build configuration list for PBXNativeTarget "Pods-RKMultiUnitRuler_Tests" */;
-			buildPhases = (
-				01B4F0CBB3D475E06EB995984DA31621 /* Sources */,
-				9D791DA9726355F9B6C271B5796D4571 /* Frameworks */,
-				86F877970E1C324EA6D2B19B1E9E5B8D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-RKMultiUnitRuler_Tests";
-			productName = "Pods-RKMultiUnitRuler_Tests";
-			productReference = D08D85DEE34E0B3845F5E10CEC2A1C88 /* Pods_RKMultiUnitRuler_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					4A4CF61B20B4828650DB699A984CC4C1 = {
-						LastSwiftMigration = 0820;
-					};
-				};
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -346,21 +351,13 @@
 			projectRoot = "";
 			targets = (
 				4A4CF61B20B4828650DB699A984CC4C1 /* Pods-RKMultiUnitRuler_Example */,
-				E473A9E46E6704B3006A4CE514238BAE /* Pods-RKMultiUnitRuler_Tests */,
+				0D4362EA6C366F632D3E979EFAB7E9B8 /* Pods-RKMultiUnitRuler_Tests */,
 				CB2EC8BD174C06D6404CC8828B0E41C8 /* RKMultiUnitRuler */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01B4F0CBB3D475E06EB995984DA31621 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8F2AF98D327A5132B6D90862F81B78B /* Pods-RKMultiUnitRuler_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		22388F5496E512385AB338AAF39D2BD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,23 +366,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3E3FF2826B7064DD39E746BCD4AE335 /* Sources */ = {
+		5C9E8BDD29990151918046A76A5D5F26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1AE79AAE0C153754A8E9F7099FC452 /* Constant.swift in Sources */,
-				47BC62D683DAAE0194077A5B25BA2ED8 /* RKMultiUnitRuler-dummy.m in Sources */,
-				7E491E3A76587A7EEF0FA94F4F0A814B /* RKMultiUnitRuler.swift in Sources */,
-				02EA1B48639623B19DE66EB992EE9E35 /* RKRangeLayer.swift in Sources */,
-				97894EFFAE9C30BC56973A74801BEE30 /* RKRangePointerView.swift in Sources */,
-				356C3E368415FF52E6A6537213C54B37 /* RKRangeScrollView.swift in Sources */,
-				30A6070A15A84F97BD25C8E22E8292C1 /* RKRangeTextView.swift in Sources */,
+				29302B1D0E0E234BF15441F67A3DD9D8 /* Constant.swift in Sources */,
+				5853E90B8E099484FED2F5CB3050A452 /* RKMultiUnitRuler-dummy.m in Sources */,
+				AE9D829C58FD1945E3A23B319FDF77F5 /* RKMultiUnitRuler.swift in Sources */,
+				3EF89EAAD6A6534F3C8D916BF20A98AC /* RKRangeLayer.swift in Sources */,
+				AD15C9350DDA96FB4A571636F19FA470 /* RKRangePointerView.swift in Sources */,
+				C7C54B913ED4E1E0239A0081F3466A77 /* RKRangeScrollView.swift in Sources */,
+				DB3A1E3A164DD674E8589AA8B1A403E6 /* RKRangeTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B7C79B56CF58949E0B13F0777829FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3A6614BF113DB82CF34BB4821E3521 /* Pods-RKMultiUnitRuler_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6FFAE1FE407F4AD7FF4DB51A23948B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RKMultiUnitRuler_Example";
+			target = 4A4CF61B20B4828650DB699A984CC4C1 /* Pods-RKMultiUnitRuler_Example */;
+			targetProxy = 3DB20FF5867298967D6D37FB0AC5C6AD /* PBXContainerItemProxy */;
+		};
 		957E2E248B27922B56E35D91ED7ED8C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RKMultiUnitRuler;
@@ -395,297 +406,333 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+		513BBD2446787A2E3F02B60ABFE1DD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707AD0136FCA4AD4380AD2AE0BD94A3F /* RKMultiUnitRuler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RKMultiUnitRuler/RKMultiUnitRuler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RKMultiUnitRuler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RKMultiUnitRuler/RKMultiUnitRuler.modulemap";
+				PRODUCT_MODULE_NAME = RKMultiUnitRuler;
+				PRODUCT_NAME = RKMultiUnitRuler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		20D17E55ECC7A5642E011FE663AD142B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAD1B278371D27894404E0CEF92B03D2 /* Pods-RKMultiUnitRuler_Example.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Example/Pods-RKMultiUnitRuler_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RKMultiUnitRuler_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2943D1EF9ABB2BC2C18DEDC3B2F1227F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8E96CE53BFBF80ED5369E2185BC10D8 /* RKMultiUnitRuler.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RKMultiUnitRuler/RKMultiUnitRuler-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RKMultiUnitRuler/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RKMultiUnitRuler/RKMultiUnitRuler.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RKMultiUnitRuler;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5B23B5FF636E6F4CD673F057577A269B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7E54D2DAFDC6CE37ED0D9419E95A18 /* Pods-RKMultiUnitRuler_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Tests/Pods-RKMultiUnitRuler_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RKMultiUnitRuler_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		715413CBCF03C4BCCE385959278695E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8E96CE53BFBF80ED5369E2185BC10D8 /* RKMultiUnitRuler.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RKMultiUnitRuler/RKMultiUnitRuler-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RKMultiUnitRuler/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RKMultiUnitRuler/RKMultiUnitRuler.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RKMultiUnitRuler;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A9133A91AEF0366EF2E3B4D386CAC052 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66E5538C452281A72A30835354B09947 /* Pods-RKMultiUnitRuler_Example.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Example/Pods-RKMultiUnitRuler_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RKMultiUnitRuler_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D41706BD2979A3529856C57E37CCB27E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 112AA4EABE328936D8A323D7C33C6E8D /* Pods-RKMultiUnitRuler_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Tests/Pods-RKMultiUnitRuler_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RKMultiUnitRuler_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5FD5D385DEF8F464A5AD22769538236E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE67F2869099925CE7F5E17A445EAC9 /* Pods-RKMultiUnitRuler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Tests/Pods-RKMultiUnitRuler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86FB57FB0A1541A43D416DBD32544678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707AD0136FCA4AD4380AD2AE0BD94A3F /* RKMultiUnitRuler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RKMultiUnitRuler/RKMultiUnitRuler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RKMultiUnitRuler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RKMultiUnitRuler/RKMultiUnitRuler.modulemap";
+				PRODUCT_MODULE_NAME = RKMultiUnitRuler;
+				PRODUCT_NAME = RKMultiUnitRuler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		960F31066ABD8C8F5E6A4C1285AF3EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712D3643E9809A8B76694956E832A012 /* Pods-RKMultiUnitRuler_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Example/Pods-RKMultiUnitRuler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC8B0684784F3CB176A9655F88BED2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CE79FA83EC57AC0A97AA6DCB94E09A /* Pods-RKMultiUnitRuler_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Example/Pods-RKMultiUnitRuler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5086770C2493E38F78F2C85A26BEAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED897D66447F129789599DED77AEDAF0 /* Pods-RKMultiUnitRuler_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RKMultiUnitRuler_Tests/Pods-RKMultiUnitRuler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -695,8 +742,8 @@
 		2327ACA4C5139E9D832D4C79113C20E0 /* Build configuration list for PBXNativeTarget "RKMultiUnitRuler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2943D1EF9ABB2BC2C18DEDC3B2F1227F /* Debug */,
-				715413CBCF03C4BCCE385959278695E3 /* Release */,
+				86FB57FB0A1541A43D416DBD32544678 /* Debug */,
+				513BBD2446787A2E3F02B60ABFE1DD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -704,8 +751,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
-				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DCA1A6EF6F01A583C508F973F5AB767 /* Build configuration list for PBXNativeTarget "Pods-RKMultiUnitRuler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD5D385DEF8F464A5AD22769538236E /* Debug */,
+				E5086770C2493E38F78F2C85A26BEAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -713,17 +769,8 @@
 		CB5743F9D7DB8A55925F4333DC32E2A0 /* Build configuration list for PBXNativeTarget "Pods-RKMultiUnitRuler_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9133A91AEF0366EF2E3B4D386CAC052 /* Debug */,
-				20D17E55ECC7A5642E011FE663AD142B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E059F5EC43C33AC0E3CD82C28EA69801 /* Build configuration list for PBXNativeTarget "Pods-RKMultiUnitRuler_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D41706BD2979A3529856C57E37CCB27E /* Debug */,
-				5B23B5FF636E6F4CD673F057577A269B /* Release */,
+				AC8B0684784F3CB176A9655F88BED2A6 /* Debug */,
+				960F31066ABD8C8F5E6A4C1285AF3EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
