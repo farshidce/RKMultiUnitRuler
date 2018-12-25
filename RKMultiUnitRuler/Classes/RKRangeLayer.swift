@@ -49,7 +49,7 @@ public class RKRangeMarkerType: NSObject, NSCopying {
     }
 
     public override var description: String {
-        return String("scale : \(self.scale) name: \(self.name) " +
+        return String("scale : \(self.scale) name: \(String(describing: self.name)) " +
                 "color: \(self.color) font: \(self.font.description) size: \(self.size.debugDescription)")
     }
 
