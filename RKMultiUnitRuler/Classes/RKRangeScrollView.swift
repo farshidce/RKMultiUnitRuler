@@ -77,7 +77,7 @@ class RKRangeScrollView: UIControl, UIScrollViewDelegate {
             let rawValue = self.valueForContentOffset(contentOffset: self.scrollView.contentOffset)
             self.currentValue = Float(lroundf(rawValue / minScale)) * minScale
             if (oldValue != currentValue) {
-                self.sendActions(for: UIControlEvents.valueChanged)
+                self.sendActions(for: UIControl.Event.valueChanged)
             }
         }
     }
@@ -115,7 +115,7 @@ class RKRangeScrollView: UIControl, UIScrollViewDelegate {
             let oldValue = self.valueForContentOffset(contentOffset: self.scrollView.contentOffset)
             let minScale = RKRangeMarkerType.minScale(types: self.markerTypes)
             self.currentValue = Float(lroundf(oldValue / minScale)) * minScale
-            self.sendActions(for: UIControlEvents.valueChanged)
+            self.sendActions(for: UIControl.Event.valueChanged)
         }
     }
 
@@ -179,9 +179,9 @@ class RKRangeScrollView: UIControl, UIScrollViewDelegate {
     func offsetCoefficient() -> CGFloat {
         switch self.direction {
         case .horizontal:
-            return self.self.rangeLayer.frame.width / CGFloat(fabs(range.length))
+            return self.self.rangeLayer.frame.width / CGFloat(abs(range.length))
         case .vertical:
-            return self.self.rangeLayer.frame.height / CGFloat(fabs(range.length))
+            return self.self.rangeLayer.frame.height / CGFloat(abs(range.length))
         }
     }
 
@@ -197,12 +197,12 @@ class RKRangeScrollView: UIControl, UIScrollViewDelegate {
         switch (self.direction) {
         case .horizontal:
             let sideInset = self.scrollView.frame.width / 2.0
-            self.scrollView.contentInset = UIEdgeInsetsMake(
-                    0, sideInset - self.sideOffset, 0, sideInset - self.sideOffset)
+            self.scrollView.contentInset = UIEdgeInsets.init(
+                    top: 0, left: sideInset - self.sideOffset, bottom: 0, right: sideInset - self.sideOffset)
         case .vertical:
             let sideInset = self.scrollView.frame.height / 2.0
-            self.scrollView.contentInset = UIEdgeInsetsMake(
-                    sideInset - self.sideOffset, 0, sideInset - self.sideOffset, 0)
+            self.scrollView.contentInset = UIEdgeInsets.init(
+                    top: sideInset - self.sideOffset, left: 0, bottom: sideInset - self.sideOffset, right: 0)
         }
         CATransaction.begin()
         CATransaction.setDisableActions(true)
