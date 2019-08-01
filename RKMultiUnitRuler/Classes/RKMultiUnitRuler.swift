@@ -133,36 +133,36 @@ public class RKMultiUnitRuler: UIView {
             case .horizontal:
                 constraints += NSLayoutConstraint.constraints(
                         withVisualFormat: "H:|-5-[segmentControl]-5-|",
-                        options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                        options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                         metrics: nil,
                         views: ["segmentControl": self.segmentControl])
                 for segmentView in segmentedViews {
                     constraints += NSLayoutConstraint.constraints(
                             withVisualFormat: "H:|-5-[segmentView]-5-|",
-                            options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                            options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                             metrics: nil,
                             views: ["segmentView": segmentView])
                     constraints += NSLayoutConstraint.constraints(
                             withVisualFormat: "V:|-5-[segmentControl]-5-[segmentView]-5-|",
-                            options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                            options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                             metrics: nil,
                             views: ["segmentView": segmentView, "segmentControl": segmentControl])
                 }
             case .vertical:
                 constraints += NSLayoutConstraint.constraints(
                         withVisualFormat: "H:|-5-[segmentControl]-5-|",
-                        options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                        options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                         metrics: nil,
                         views: ["segmentControl": self.segmentControl])
                 for segmentView in segmentedViews {
                     constraints += NSLayoutConstraint.constraints(
                             withVisualFormat: "H:|-5-[segmentView]-5-|",
-                            options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                            options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                             metrics: nil,
                             views: ["segmentView": segmentView])
                     constraints += NSLayoutConstraint.constraints(
                             withVisualFormat: "V:|-5-[segmentControl]-5-[segmentView]-5-|",
-                            options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                            options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                             metrics: nil,
                             views: ["segmentView": segmentView, "segmentControl": segmentControl])
                 }
@@ -170,7 +170,7 @@ public class RKMultiUnitRuler: UIView {
             }
             segmentControl.addTarget(self,
                     action: #selector(RKMultiUnitRuler.segmentSelectionChanged(_:)),
-                    for: UIControlEvents.valueChanged)
+                    for: UIControl.Event.valueChanged)
             self.addConstraints(constraints)
             self.segmentSelectionChanged(self.segmentControl)
         }
@@ -192,8 +192,8 @@ public class RKMultiUnitRuler: UIView {
                     let style = dataSource.styleForUnit(unit)
                     self.segmentControl.tintColor = UIColor.yellow
                     self.segmentControl.setTitleTextAttributes(
-                            [NSForegroundColorAttributeName: style.textFieldTextColor,
-                             NSFontAttributeName: kDefaultSegmentControlTitleFont], for: .normal)
+                            [NSAttributedString.Key(rawValue: convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor)): style.textFieldTextColor,
+                             NSAttributedString.Key(rawValue: convertFromNSAttributedStringKey(NSAttributedString.Key.font)): kDefaultSegmentControlTitleFont], for: .normal)
                 }
             }
             self.addSubview(self.segmentControl)
@@ -204,7 +204,7 @@ public class RKMultiUnitRuler: UIView {
         return self.segmentControl
     }
 
-    func segmentSelectionChanged(_ sender: UISegmentedControl) {
+    @objc func segmentSelectionChanged(_ sender: UISegmentedControl) {
         if let segmentedViews = self.segmentedViews {
             for i in 0 ... segmentedViews.count - 1 {
                 if i == segmentControl.selectedSegmentIndex {
@@ -226,13 +226,13 @@ public class RKMultiUnitRuler: UIView {
                 scrollViews[segmentControl.selectedSegmentIndex].scrollToCurrentValueOffset()
                 let style = dataSource.styleForUnit(unit)
                 self.segmentControl.setTitleTextAttributes(
-                        [NSForegroundColorAttributeName: style.textFieldTextColor,
-                         NSFontAttributeName: kDefaultSegmentControlTitleFont], for: .normal)
+                        [NSAttributedString.Key(rawValue: convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor)): style.textFieldTextColor,
+                         NSAttributedString.Key(rawValue: convertFromNSAttributedStringKey(NSAttributedString.Key.font)): kDefaultSegmentControlTitleFont], for: .normal)
             }
         }
     }
 
-    func scrollViewCurrentValueChanged(_ sender: RKRangeScrollView) {
+    @objc func scrollViewCurrentValueChanged(_ sender: RKRangeScrollView) {
         if let dataSource = self.dataSource {
             let activeSegmentUnit = dataSource.unitForSegmentAtIndex(
                     index: segmentControl.selectedSegmentIndex)
@@ -246,7 +246,7 @@ public class RKMultiUnitRuler: UIView {
         }
     }
 
-    func textViewValueChanged(_ sender: RKRangeTextView) {
+    @objc func textViewValueChanged(_ sender: RKRangeTextView) {
         if let dataSource = self.dataSource {
             let activeSegmentUnit = dataSource.unitForSegmentAtIndex(
                     index: segmentControl.selectedSegmentIndex)
@@ -332,46 +332,46 @@ public class RKMultiUnitRuler: UIView {
                     switch (self.direction) {
                     case .vertical:
                         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-5-[scrollView]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-5-[pointerView(10)]-0-[scrollView]-5-[textView]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-5-[pointerView]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-5-[pointerView(10)]-0-[scrollView]-5-[underlineView]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                         constraints += NSLayoutConstraint.constraints(
                                 withVisualFormat: "V:|-10-[textView(25)]-1-[underlineView(2)]",
-                                options: NSLayoutFormatOptions.alignAllCenterX,
+                                options: NSLayoutConstraint.FormatOptions.alignAllCenterX,
                                 metrics: nil,
                                 views: segmentSubViews)
                     case .horizontal:
                         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-5-[scrollView]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-5-[textView]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-5-[pointerView]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-5-[underlineView]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                         constraints += NSLayoutConstraint.constraints(
                                 withVisualFormat: "V:|-5-[pointerView(10)]-0-[scrollView]-5-[textView(25)]-1-[underlineView(2)]-5-|",
-                                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                                 metrics: nil,
                                 views: segmentSubViews)
                     }
@@ -454,4 +454,9 @@ public class RKMultiUnitRuler: UIView {
         updateScrollViews()
         updateTextFields()
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
+	return input.rawValue
 }

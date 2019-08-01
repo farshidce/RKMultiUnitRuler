@@ -83,11 +83,11 @@ class RKRangeTextView: UIControl, UITextFieldDelegate {
         self.addSubview(textField)
         let views = ["textField": textField]
         var constraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-5-[textField]-5-|",
-                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                 metrics: nil,
                 views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-5-[textField]-5-|",
-                options: NSLayoutFormatOptions.directionLeadingToTrailing,
+                options: NSLayoutConstraint.FormatOptions.directionLeadingToTrailing,
                 metrics: nil,
                 views: views)
         self.addConstraints(constraints)
@@ -112,7 +112,7 @@ class RKRangeTextView: UIControl, UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
     }
 
-    func textFieldDidEndEditing(_ textField: UITextField, reason: UITextFieldDidEndEditingReason) {
+    func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
     }
 
     /*
@@ -127,19 +127,19 @@ class RKRangeTextView: UIControl, UITextFieldDelegate {
         let textFieldText = (textField.text ?? "") as NSString?
         let updatedString = textFieldText?.replacingCharacters(in: range, with: string)
         if let unit = self.unit {
-            print("updatedString : \(updatedString)")
+            print("updatedString : \(String(describing: updatedString))")
             if let updatedStringAsFloat = updatedString?.replacingOccurrences(
                     of: unit.symbol, with: "").floatValue {
                 currentValue = updatedStringAsFloat
                 self.updateTextFieldText(value: currentValue)
-                self.sendActions(for: UIControlEvents.valueChanged)
+                self.sendActions(for: UIControl.Event.valueChanged)
                 return false
             }
             return true
         } else {
             if let updatedStringAsFloat = updatedString?.floatValue {
                 currentValue = updatedStringAsFloat
-                self.sendActions(for: UIControlEvents.valueChanged)
+                self.sendActions(for: UIControl.Event.valueChanged)
             }
             return true
         }

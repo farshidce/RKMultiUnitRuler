@@ -49,7 +49,7 @@ public class RKRangeMarkerType: NSObject, NSCopying {
     }
 
     public override var description: String {
-        return String("scale : \(self.scale) name: \(self.name) " +
+        return String("scale : \(self.scale) name: \(String(describing: self.name)) " +
                 "color: \(self.color) font: \(self.font.description) size: \(self.size.debugDescription)")
     }
 
@@ -211,7 +211,7 @@ class RKRangeLayer: CALayer {
             }
             if let imageToDraw = UIGraphicsGetImageFromCurrentImageContext() {
                 UIGraphicsEndImageContext();
-                imageToDraw.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
+                imageToDraw.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
                 contents = imageToDraw.cgImage
             }
         }
@@ -228,10 +228,10 @@ class RKRangeLayer: CALayer {
         let colorOverride = self.colorOverride(for: marker.value)
         let color = colorOverride ?? marker.type.color
         let textAttributes = [
-                NSFontAttributeName: marker.type.font,
-                NSForegroundColorAttributeName: marker.type.color
+                convertFromNSAttributedStringKey(NSAttributedString.Key.font): marker.type.font,
+                convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor): marker.type.color
         ] as [String: Any]
-        let textSize = NSString(string: marker.text).size(attributes: textAttributes)
+        let textSize = NSString(string: marker.text).size(withAttributes: convertToOptionalNSAttributedStringKeyDictionary(textAttributes))
         let xPos = pos - marker.type.size.width / 2
         var yPos: CGFloat = 0.0
 
@@ -260,7 +260,7 @@ class RKRangeLayer: CALayer {
         context.setFillColor(color.cgColor)
         context.fill(markerRect)
         if marker.value >= rangeEnd || marker.type.labelVisible {
-            NSString(string: marker.text).draw(in: markerTextRect, withAttributes: textAttributes)
+            NSString(string: marker.text).draw(in: markerTextRect, withAttributes: convertToOptionalNSAttributedStringKeyDictionary(textAttributes))
         }
     }
 
@@ -269,10 +269,10 @@ class RKRangeLayer: CALayer {
         let colorOverride = self.colorOverride(for: marker.value)
         let color = colorOverride ?? marker.type.color
         let textAttributes = [
-                NSFontAttributeName: marker.type.font,
-                NSForegroundColorAttributeName: marker.type.color
+                convertFromNSAttributedStringKey(NSAttributedString.Key.font): marker.type.font,
+                convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor): marker.type.color
         ] as [String: Any]
-        let textSize = NSString(string: marker.text).size(attributes: textAttributes)
+        let textSize = NSString(string: marker.text).size(withAttributes: convertToOptionalNSAttributedStringKeyDictionary(textAttributes))
 
         let yPos = self.frame.height - pos - marker.type.size.width / 2
         var xPos: CGFloat = 0.0
@@ -306,7 +306,18 @@ class RKRangeLayer: CALayer {
         context.setFillColor(color.cgColor)
         context.fill(markerRect)
         if marker.value >= rangeEnd || marker.type.labelVisible {
-            NSString(string: marker.text).draw(in: markerTextRect, withAttributes: textAttributes)
+            NSString(string: marker.text).draw(in: markerTextRect, withAttributes: convertToOptionalNSAttributedStringKeyDictionary(textAttributes))
         }
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
+	return input.rawValue
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToOptionalNSAttributedStringKeyDictionary(_ input: [String: Any]?) -> [NSAttributedString.Key: Any]? {
+	guard let input = input else { return nil }
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (NSAttributedString.Key(rawValue: key), value)})
 }
